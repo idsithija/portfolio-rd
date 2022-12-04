@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Header from '../components/Header'
 import Hero from '../components/Hero'
+import WorkGrid from '../components/WorkGrid'
 
 const Home = () => {
   return (
@@ -11,6 +12,7 @@ const Home = () => {
       </Head>
       <Header />
       <Hero />
+      <WorkGrid />
     </div>
   )
 }

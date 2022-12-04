@@ -13,7 +13,7 @@ function Hero() {
       </div>
       <div className="mt-4 h-full bg-hero-img bg-no-repeat shadow-1xbb">
         <div className="p-3 mt-5 flex justify-center">
-          <Image src={Person} width={250} alt="person" priority />
+          <Image src={Person} width={230} alt="person" priority />
         </div>
       </div>
     </div>
