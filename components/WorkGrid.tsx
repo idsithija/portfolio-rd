@@ -2,7 +2,7 @@ export default function WorkGrid() {
   return (
     <div>
       <div className="pt-4 px-3 pb-6">
-        <h3 className="text-[1.5rem]">
+        <h3 className="text-[1.5rem] poppins-font">
           Featured Work
         </h3>
       </div>

@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Header from '../components/Header'
 import Hero from '../components/Hero'
+import Info from '../components/Info'
 import WorkGrid from '../components/WorkGrid'
 
 const Home = () => {
@@ -13,6 +14,7 @@ const Home = () => {
       <Header />
       <Hero />
       <WorkGrid />
+      <Info />
     </div>
   )
 }
