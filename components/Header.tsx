@@ -1,6 +1,17 @@
+import { useRef, useState } from "react"
 import Hambuger from "../assets/icons/Hambuger"
 
 function Header() {
+
+  // const middleLine = useRef<HTMLSpanElement>(null)
+  // const topLine = useRef<HTMLSpanElement>(null)
+
+  // const hambugerClick = () => {
+  //   console.log(middleLine)
+  //   middleLine.current?.classList.add('-rotate-45')
+  //   topLine.current?.classList.add('-rotate-135')
+  // }
+
   return (
     <div className="flex p-3 justify-between items-center">
       <div className="flex-[7_7_0%]">
@@ -8,15 +19,15 @@ function Header() {
       </div>
 
 
-      <div className="w-[30px] h-[30px] space-y-1.5 cursor-pointer">
-        <span className="w-[40%] h-[3px] block bg-black"></span>
-        <span className="w-[100%] h-[3px] block bg-black"></span>
-        <span className="w-[50%] h-[3px] block bg-black float-right"></span>
+      <div className="w-[30px] h-[30px] cursor-pointer">
+        <div className="relative w-[30px] h-[30px] ss">
+          <span className="hambgurspan line1"></span>
+          <span className="hambgurspan line3"></span>
+          <span className="hambgurspan line2"></span>
+        </div>
       </div>
 
-
-
-    </div>
+    </div >
   )
 }
 
