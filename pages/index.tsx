@@ -17,8 +17,15 @@ const Home = () => {
       <Hero />
       <WorkGrid />
       <Info />
-      <GetInTouch />
-      <Social />
+      <div className='lg:flex lg:justify-between'>
+        <div>
+          <GetInTouch />
+        </div>
+        <div>
+          <Social />
+        </div>
+      </div>
+      <hr className="h-[2px] bg-black mt-12 mb-10 hidden lg:block lg:w-[calc(100%-5rem)] lg:mx-auto"></hr>
     </div>
   )
 }
